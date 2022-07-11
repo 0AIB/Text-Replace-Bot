@@ -12,14 +12,8 @@ I Am Private TG Channel Management bot
 
 👉 <i>Add me as a Admin in your channel with edit permission</i>
 
-👉 <i>Add your caption in heroku Config Var</i>
-   
-<i>[Support Markdown]</i>
-
-👉 <i>Forward your files in your channel and I will edit it</i>
-
-○ <i>My Source Code : /source</i>
-
+👉 <i>Add your caption & Auto Forward Channel ID's, Replace Caption in heroku Config Var</i>
+  
 """    
                   
       ABOUT_TEXT = """
@@ -32,20 +26,6 @@ I Am Private TG Channel Management bot
 ○ 𝖢𝗋𝖾𝖺𝗍𝗈𝗋 : @Subhan011 
 """
 
-      MARKDOWN_TEXT = """
-🔰 <u>𝐀𝐛𝐨𝐮𝐭 𝐌𝐚𝐫𝐤𝐝𝐨𝐰𝐧</u>
-👉 <b>Bold text</b>
-🔸 <code>**subhan**</code>
-
-👉 <b>Italic text</b>
-🔹 <code>__subhan__</code> 
-
-👉 <b>Code text</b>
-🔸 <code>`subhan`</code>   
-
-👉 <b>Hyperlink text</b>
-🔹 <code>[hyperlink_text](https://t.me/subhan011)</code> 
-"""
 
       SOURCE_TEXT = """
 
