@@ -53,7 +53,7 @@
 /start : start the bot
 /imdb : get Movies information
 /source : my Repository
-/info : get User info & Forward Message ID's
+/info : get User info & Forwarded Message ID Or Channel ID's.
 ```
 
 ## Credits
