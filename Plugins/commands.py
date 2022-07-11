@@ -102,8 +102,8 @@ async def about(bot, cmd):
       )
 
 
-@autoforward.on_message(filters.command("source", "repo") & filters.private)
-async def source_repo(bot, cmd):
+@autoforward.on_message(filters.command("source") & filters.private)
+async def about(bot, cmd):
       await bot.send_message(
           chat_id = cmd.chat.id,
           text = Translation.SOURCE_TEXT, 
@@ -112,7 +112,6 @@ async def source_repo(bot, cmd):
           disable_web_page_preview = True, 
           reply_markup = source_button
       )      
-
 
 
 # call_backs 
