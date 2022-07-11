@@ -1,5 +1,5 @@
 {
-  "name": "Channel Automation [ Subhan ]",
+  "name": "Channel Automation [ Lx ]",
   "description": "Telegram Channel Automation bot",
   "keywords": [
     "telegram",
@@ -7,10 +7,10 @@
     "auto",
     "caption" 
   ],
-  "success_url": "https://telegram.com/capxbot",
-  "website": "https://github.com/avipatilpro/Caption-Bot",
-  "repository": "https://github.com/avipatilpro/Caption-Bot",
-  "logo": "https://telegra.ph/file/a3e95bf96275cb37844b1.jpg",
+  "success_url": "https://telegram.com/DFF_TextReplaceBot",
+  "website": "https://github.com/lx575",
+  "repository": "https://github.com/lx575/TG-Text-Replace-Bot",
+  "logo": "https://telegra.ph/file/a6881f1eb68bdb8ce5b88.jpg",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
