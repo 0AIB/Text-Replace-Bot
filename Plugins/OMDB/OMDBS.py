@@ -1,8 +1,4 @@
-import logging
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
-
+# @lx575
 from bot import autoforward
 from asyncio import sleep
 from Plugins.OMDB import get_movie_info
