@@ -42,7 +42,7 @@
 ## Credits
 - [ TS BOTS](https://github.com/Ts-Bots) For TG Channel Auto Caption
 - [Fayas Noushad](https://github.com/FayasNoushad) For TG Channel Auto Forward
-- [Lx](https://github.com/lx575) For Replace text
+- [Lx](https://github.com/lx575) For this Repository
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
 
 ---
