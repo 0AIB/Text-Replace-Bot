@@ -15,6 +15,8 @@
 - `RE4TXT` Text Four
 - `RE5TXT` Text five
 - `RE6TXT` Text Six
+
+- `REPLACED` Replace with
 #### Auto Forward
 - `FROM_CHANNELS` From channel ids for auto post
 - `TO_CHATS` To channel or group or chat ids for auto post
