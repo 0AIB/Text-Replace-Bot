@@ -17,6 +17,9 @@
 - `RE6TXT` Text Six
 
 - `REPLACED` Replace with
+
+- `OMDB_KEY`: OMDB API KEY to generate imdb poster for filter results.Get it from [omdbapi.com](http://www.omdbapi.com/apikey.aspx)
+
 #### Auto Forward
 - `FROM_CHANNELS` From channel ids for auto post
 - `TO_CHATS` To channel or group or chat ids for auto post
