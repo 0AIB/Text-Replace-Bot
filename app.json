@@ -33,10 +33,6 @@
       "value": "", 
       "required": false 
     },
-    "CAPTION_POSITION": {
-      "description": "Position of your caption [TOP, BOTTOM, NIL]",
-      "value": ""
-    },
     "RE1TXT": {
       "description": "text you want to Replace",
       "value": "", 
