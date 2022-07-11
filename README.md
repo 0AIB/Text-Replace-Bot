@@ -38,6 +38,13 @@
 - `REPLY_MARKUP` (bool and optional) For copy reply markup
 
 ---
+#### Deploy To Heroku
+- Fork This Repo
+- Without Any Changes Click Below Button 
+- Deploy This Repo
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy=https://github.com/lx575/TG-Text-Replacer-Bot)
+<br>
 
 ## Credits
 - [ TS BOTS](https://github.com/Ts-Bots) For TG Channel Auto Caption
