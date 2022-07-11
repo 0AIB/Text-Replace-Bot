@@ -52,6 +52,11 @@
       "description": "To channel or group or chat ids for auto post Or Auto Forward",
       "value": "", 
       "required": false
+    },
+    "OMDB_KEY": {
+      "description": "required to Movies information",
+      "value": "", 
+      "required": false
     }        
     
   },
