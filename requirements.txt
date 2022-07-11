@@ -1,0 +1,6 @@
+pyrogram==1.4.0
+tgcrypto
+psycopg2-binary
+sqlalchemy==1.3.23
+python-dotenv
+requests
