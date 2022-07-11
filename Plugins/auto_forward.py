@@ -1,9 +1,4 @@
 import os
-import logging
-logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
-
 from bot import autoforward
 from config import Config 
 from dotenv import load_dotenv
