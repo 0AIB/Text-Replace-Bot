@@ -23,10 +23,10 @@ async def editing(bot, message):
          pass 
       if (message.document or message.video or message.photo or message.audio): 
           if message.caption:                        
-             file_caption = f"{message.caption}"                
+             file_caption = f"**{message.caption}**"                
           else:
              fname = media.file_name
-             filename = fname.replace("_", ".")
+             filename = fname.replace("_", ".").replace(RE1TXT, REPLACED).replace(RE2TXT, REPLACED).replace(RE3TXT, REPLACED).replace(RE4TXT, REPLACED).replace(RE5TXT, REPLACED).replace(RE6TXT, REPLACED)
              file_caption = f"`{filename}`"  
               
       try:
