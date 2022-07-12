@@ -1,4 +1,4 @@
-| Telegram ChannelAutomation bot. 🔥
+| Telegram ChannelAutomation bot. 🔥   [Demo](https://t.me/DFF_TextReplaceBot)
 |----
 
 ### Required
