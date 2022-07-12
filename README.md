@@ -19,7 +19,7 @@
 - `REPLACED` Replace with
 ## _________    _________
 - `OMDB_KEY`: OMDB API KEY to generate imdb poster & Movie info.Get it from [omdbapi.com](http://www.omdbapi.com/apikey.aspx)
-
+- 'CAPTION_POSITION` `bottom`, |top`, `nil` [View Captain position](https://telegra.ph/file/264ab5cc8bb1e2fc9f430.jpg)
 #### Auto Forward
 - `FROM_CHANNELS` From channel ids for auto post
 - `TO_CHATS` To channel or group or chat ids for auto post
