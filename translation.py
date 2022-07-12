@@ -19,7 +19,7 @@ I Am TG Channel Automation bot
       ABOUT_TEXT = """
 📕 𝖠𝖻𝗈𝗎𝗍 𝗆𝖾
 
-○ 𝖬𝗒 𝖭𝖺𝗆𝖾 : Channel Management
+○ 𝖬𝗒 𝖭𝖺𝗆𝖾 : Channel Automation
 ○ 𝖫𝖺𝗎𝗇𝗀𝗎𝖺𝗀𝖾 : Python
 ○ 𝖥𝗋𝖺𝗆𝖾𝗐𝗈𝗋𝗄 : Heroku
 ○ 𝖵𝖾𝗋𝗌𝗂𝗈𝗇 : 2.0.1
