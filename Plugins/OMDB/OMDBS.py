@@ -8,15 +8,13 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @autoforward.on_message(filters.command(["imdb", 'search']))
 async def imdb_search(client, message):
     if ' ' in message.text:
-        k = await message.reply('Searching ImDB')
-        await sleep(1)
-        await k.delete()
         r, title = message.text.split(None, 1)        
         try:
             poster, id, text = get_movie_info(title)
             buttons=[[InlineKeyboardButton('🎟 𝖨𝖬𝖣𝖻', url=f"https://www.imdb.com/title/{id}"), InlineKeyboardButton('𝖥𝗈𝗅𝗅𝗈𝗐 𝖮𝗇 𝖦𝗂𝗍𝗁𝗎𝖻', url=f"https://GitHub.com/lx575")]]    
             m=await message.reply_text("𝖥𝗂𝗇𝖽𝗂𝗇𝗀 𝖣𝖾𝗍𝖺𝗂𝗅𝗌..")
             await message.reply_photo(photo=poster.replace("SX300",""), caption=text, reply_markup=InlineKeyboardMarkup(buttons))
+            await sleep(1)
             await m.delete()                                                          
         except ValueError:
             m=await message.reply_text("𝖲𝗈𝗋𝗋𝗒,\n𝖨 𝖢𝖺𝗇'𝗍 𝖥𝗂𝗇𝖽 𝖯𝗈𝗌𝗍𝖾𝗋𝗌.\n𝖲𝖾𝗇𝖽𝗂𝗇𝗀 𝖠𝗏𝖺𝗂𝗅𝖺𝖻𝗅𝖾 𝖣𝖾𝗍𝖺𝗂𝗅𝗌..")
