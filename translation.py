@@ -2,9 +2,9 @@ class Translation(object):
 
       
       START_TEXT = """
-🍃 **ʜᴀɪ** __{}__ , 
+🍃 **Hello** __{}__ , 
 
-I Am Private TG Channel Management bot
+I Am TG Channel Automation bot
 """    
 
       HELP_TEXT = """
