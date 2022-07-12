@@ -9,7 +9,7 @@ from bot import autoforward
 from config import Config
 from Plugins import RE1TXT, RE2TXT, RE3TXT, RE4TXT, RE5TXT, RE6TXT, REPLACED
 
-usercaption_position = config.CAPTION_POSITION
+usercaption_position = Config.CAPTION_POSITION
 caption_position = usercaption_position.lower()
 caption_text = Config.CAPTION_TEXT
 
