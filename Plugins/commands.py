@@ -70,7 +70,7 @@ source_button=InlineKeyboardMarkup(
 async def start(bot, cmd):
       await bot.send_message(
           chat_id = cmd.chat.id,
-          text = Translation.START_TEXT.format(cmd.from_user.first_name, Config.ADMIN_USERNAME), 
+          text = Translation.START_TEXT.format(cmd.from_user.first_name), 
           reply_to_message_id = cmd.message_id,
           parse_mode = "markdown",
           disable_web_page_preview = True, 
@@ -154,7 +154,7 @@ async def button(bot, cmd: CallbackQuery):
           )
     elif "back_data" in cb_data:
           await cmd.message.edit(
-               text=Translation.START_TEXT.format(cmd.from_user.first_name, Config.ADMIN_USERNAME),
+               text=Translation.START_TEXT.format(cmd.from_user.first_name),
                parse_mode="markdown", 
                disable_web_page_preview=True, 
                reply_markup=InlineKeyboardMarkup(
