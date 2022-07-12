@@ -8,8 +8,4 @@ class Config(object):
       API_HASH = os.environ.get("API_HASH")
       CAPTION_TEXT = os.environ.get("CAPTION_TEXT", "")
       CAPTION_POSITION = os.environ.get("CAPTION_POSITION", "bottom")
-      ADMIN_USERNAME = os.environ.get("ADMIN_USERNAME", "cvSubhan")
       
-      AUTO_FORWARD_ID = list(x for x in os.environ.get("AUTO_FORWARD_ID", "").replace("\n", " ").split(' '))
-
-
