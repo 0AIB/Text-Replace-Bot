@@ -9,7 +9,7 @@ from bot import autoforward
 from config import Config
 from Plugins import RE1TXT, RE2TXT, RE3TXT, RE4TXT, RE5TXT, RE6TXT, REPLACED
 
-usercaption_position = "bottom"
+usercaption_position = config.CAPTION_POSITION
 caption_position = usercaption_position.lower()
 caption_text = Config.CAPTION_TEXT
 
@@ -30,15 +30,26 @@ async def editing(bot, message):
              file_caption = f"`{filename}`"  
               
       try:
-          if caption_position == "bottom":
+          if caption_position == "bottom":          
              await bot.edit_message_caption(
                  chat_id = message.chat.id, 
                  message_id = message.message_id,
-                 caption = file_caption.replace(RE1TXT, REPLACED).replace(RE2TXT, REPLACED).replace(RE3TXT, REPLACED).replace(RE4TXT, REPLACED).replace(RE5TXT, REPLACED).replace(RE6TXT, REPLACED) + "\n\n" + caption_text,      
+                 caption = file_caption.replace(RE1TXT, REPLACED).replace(RE2TXT, REPLACED).replace(RE3TXT, REPLACED).replace(RE4TXT, REPLACED).replace(RE5TXT, REPLACED).replace(RE6TXT, REPLACED) + "\n\n" + caption_text, 
                  parse_mode = "markdown"
              )
+          elif caption_position == "top":
+             await bot.edit_message_caption(
+                 chat_id = message.chat.id, 
+                 message_id = message.message_id,
+                 caption = caption_text + file_caption.replace(RE1TXT, REPLACED).replace(RE2TXT, REPLACED).replace(RE3TXT, REPLACED).replace(RE4TXT, REPLACED).replace(RE5TXT, REPLACED).replace(RE6TXT, REPLACED),
+                 parse_mode = "markdown"
+             )
+          elif caption_position == "nil":
+             await bot.edit_message_caption(
+                 chat_id = message.chat.id,
+                 message_id = message.message_id,
+                 caption = caption_text, 
+                 parse_mode = "markdown"
+             ) 
       except:
           pass
-              
-                   
-      
