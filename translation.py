@@ -31,5 +31,5 @@ I Am Private TG Channel Management bot
 
 ○ <b> I Am Available Open Source on Github</b>
          
-○ <i>SOURCE</i> : <b><a href="https://github.com/lx575/TG-Text-Replace-Bot">Channel Management bot</a></b>  
+○ <i>SOURCE</i> : <b><a href="https://github.com/lx575/TG-Text-Replace-Bot">Channel Automationbot</a></b>  
 """
