@@ -1,3 +1,4 @@
+import os
 from os import environ
 
 # Your Auto Forward Channel ID's
