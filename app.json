@@ -28,6 +28,14 @@
       "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
+    "CAPTION_POSITION": {
+      "description": "Position of your caption [top, bottom, nil]",
+      "value": ""
+    },
+    "AUTH_USERS": {
+      "description": "Array to store users who are authorized to use the bot",
+      "value": ""
+    },
     "CAPTION_TEXT": {
       "description": "Add your caption Defult will be [Markdown] [nothing]",
       "value": "", 

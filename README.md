@@ -1,5 +1,8 @@
-| Telegram ChannelAutomation bot.
+| TG Channel Automation Bot
 |----
+
+# Feature
+<i><b>Auto Caption, Auto Forward, Auto Text Replace & You can also replace any media if you want</b>.</i>
 
 ### Required
 
@@ -47,20 +50,19 @@
 - Without Any Changes Click Below Button 
 - Deploy This Repo
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/lx575/TG-Text-Replacer-Bot"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku"width="220"height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/lx575/Channel-Automation-V2"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=for-the-badge&logo=heroku"width="220"height="38.45"/></a></p>
 
 ## Bot Commands
 ```
 /start : start the bot
 /imdb : get Movies information
-/source : my Repository
+/source : get Repository URL
 /info : get User info & Forwarded Message ID Or Channel ID's.
 ```
 
 ## Credits
 - [ TS BOTS](https://github.com/Ts-Bots) For TG Channel Auto Caption
 - [Fayas Noushad](https://github.com/FayasNoushad) For TG Channel Auto Forward
-- [me](https://github.com/lx575) For this Repository
 - [Pyrogram](https://github.com/pyrogram/pyrogram)
-
+- [Jack-of-tg](https://github.com/Jack-of-tg) For media ReplaceBot
 ---
