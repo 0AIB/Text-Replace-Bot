@@ -10,7 +10,7 @@ async def info(bot, update):
 <b>🙋🏻‍♂️ First Name :</b> {update.from_user.first_name}
 <b>🧖‍♂️ Your Second Name :</b> {update.from_user.last_name if update.from_user.last_name else 'None'}
 <b>🧑🏻‍🎓 Your Username :</b> {update.from_user.username}
-<b>🆔 Your Telegram ID :</b> {update.from_user.id}
+<b>🆔 Your Telegram ID :</b> <code>{update.from_user.id}</code>
 <b>🔗 Your Profile Link :</b> {update.from_user.mention}"""
     
     await update.reply_text(        
@@ -47,14 +47,14 @@ async def forwarded(_, msg):
         else:
             text = f"Forward Detected. \n\n"
             if msg.forward_from_chat.type == "channel":
-                text += "**Channel**"
+                text += "<b>Channel</b>"
             if msg.forward_from_chat.type == "supergroup":
-                text += "**Group**"
+                text += "<b>Group</b>"
             text += f'\n{msg.forward_from_chat.title} \n'
             if msg.forward_from_chat.username:
                 text += f'@{msg.forward_from_chat.username} \n'
-                text += f'ID : `{msg.forward_from_chat.id}`'
+                text += f'ID : <code>{msg.forward_from_chat.id}</code>'
             else:
-                text += f'ID : `{msg.forward_from_chat.id}`'
+                text += f'ID : <code>{msg.forward_from_chat.id}</code>'
             await msg.reply(text, quote=True)
 
