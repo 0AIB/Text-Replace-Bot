@@ -110,7 +110,7 @@ async def button(bot, cmd: CallbackQuery):
                reply_markup=InlineKeyboardMarkup(
                    [
                        [
-                        InlineKeyboardButton("⬇️ BACK", callback_data="back_data"),
+                        InlineKeyboardButton("⬇️ BACK", callback_data="help_data"),
                         InlineKeyboardButton("🔐 CLOSE", callback_data="close_data")
                        ]
  
