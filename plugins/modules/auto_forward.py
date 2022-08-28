@@ -1,7 +1,6 @@
 import os
 from dotenv import load_dotenv
 from pyrogram import Client, filters
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from plugins import FROM_CHANNELS, TO_CHATS
 
 load_dotenv()
