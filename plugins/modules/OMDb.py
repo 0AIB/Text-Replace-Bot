@@ -34,7 +34,7 @@ def get_movie_info(query):
 @Client.on_message(filters.command(["imdb", 'search']))
 async def imdb_search(client, message):
     if ' ' in message.text:
-        r, title = message.text.split(None, 1)        
+        title = message.text.split(None, 1)        
         try:
             poster, id, text = get_movie_info(title)
             buttons=[[InlineKeyboardButton('🎟 𝖨𝖬𝖣𝖻', url=f"https://www.imdb.com/title/{id}"), InlineKeyboardButton('𝖥𝗈𝗅𝗅𝗈𝗐 𝖮𝗇 𝖦𝗂𝗍𝗁𝗎𝖻', url=f"https://GitHub.com/lx575")]]    
