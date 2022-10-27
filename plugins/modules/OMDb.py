@@ -1,4 +1,4 @@
-# @lx575
+# @lx575 | @0AIB
 import requests
 from asyncio import sleep
 from pyrogram import Client, filters
